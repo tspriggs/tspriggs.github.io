@@ -7,7 +7,7 @@
 # Site Settings
 website_skin             : "dark"
 locale                   : "en-GB"
-title                    : "Thomas Spriggs / New Website"
+title                    : "Thomas Spriggs / Within Error"
 title_separator          : "-"
 name                     : &name "Thomas Spriggs"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Thomas Spriggs"
-  avatar           : "profile.png"
+  avatar           : "prof_pic.jpg"
   bio              : "Astrophysicist."
   location         : "Hertfordshire, UK."
   employer         :
@@ -182,11 +182,11 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  research:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -228,23 +228,23 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:

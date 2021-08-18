@@ -11,9 +11,3 @@ code: 'https://zenodo.org/record/3698303'
 github: 'https://github.com/tspriggs/MUSE_PNe_fitting'
 citation: 'Spriggs, T. W. et al (2020). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-
-Fornax 3D project: Automated detection of planetary nebulae in the centres of early-type galaxies and first results 
-
-[Download paper here](https://ui.adsabs.harvard.edu/abs/2020A%26A...637A..62S/abstract)
-
-Recommended citation: Your Name, You. (2009). "Fornax 3D project: Automated detection of planetary nebulae in the centres of early-type galaxies and first results." <i>A&A</i>. doi:10.1051/0004-6361/201936862.
